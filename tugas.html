@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Anggota - Rangga Sidik</title>
+    <style>
+        /* Pengaturan Halaman agar mirip kertas A4 */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        /* Typography */
+        h1 {
+            text-align: center;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 11pt;
+            line-height: 1.3;
+        }
+
+        /* Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11pt;
+            margin-bottom: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 5px 8px;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f9f9f9;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Helper Classes */
+        .text-center { text-align: center; }
+        .no-border { border: none; }
+        .w-number { width: 30px; text-align: center; }
+        
+        /* List di dalam tabel */
+        ul, ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        /* Bagian Tanda Tangan */
+        .signature-section {
+            margin-top: 40px;
+            float: right;
+            width: 300px;
+            text-align: left;
+        }
+        
+        .signature-space {
+            height: 80px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Responsive untuk print */
+        @media print {
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+            }
+            .page {
+                margin: 0;
+                box-shadow: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <h1>BIODATA ANGGOTA</h1>
+
+        <h2>A. Identitas Diri</h2>
+        <table>
+            <tr>
+                <td class="w-number">1</td>
+                <td style="width: 200px;">Nama Lengkap (dengan gelar)</td>
+                <td>Rangga Sidik, S.Kom., M.Kom., M.Eng</td>
+            </tr>
+            <tr>
+                <td class="w-number">2</td>
+                <td>Jenis Kelamin</td>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td class="w-number">3</td>
+                <td>Jabatan Fungsional</td>
+                <td>Lektor/III-b</td>
+            </tr>
+            <tr>
+                <td class="w-number">4</td>
+                <td>NIP/NIK/Identitas lainnya</td>
+                <td>41277026113</td>
+            </tr>
+            <tr>
+                <td class="w-number">5</td>
+                <td>NIDN</td>
+                <td>0420118601</td>
+            </tr>
+            <tr>
+                <td class="w-number">6</td>
+                <td>Tempat dan Tanggal Lahir</td>
+                <td>Bandung, 20 November 1986</td>
+            </tr>
+            <tr>
+                <td class="w-number">7</td>
+                <td>E-mail</td>
+                <td>rangga.sidik@email.unikom.ac.id</td>
+            </tr>
+            <tr>
+                <td class="w-number">9</td>
+                <td>Nomor Telepon/HP</td>
+                <td>+6285624088878</td>
+            </tr>
+            <tr>
+                <td class="w-number">10</td>
+                <td>Alamat Kantor</td>
+                <td>Jl. Dipati Ukur No. 112-116 Bandung</td>
+            </tr>
+            <tr>
+                <td class="w-number">11</td>
+                <td>Nomor Telepon/Faks</td>
+                <td>022-2503430</td>
+            </tr>
+            <tr>
+                <td class="w-number">12</td>
+                <td>Lulusan yang Telah Dihasilkan</td>
+                <td>D3=15 S-1=50 orang;</td>
+            </tr>
+            <tr>
+                <td class="w-number">13</td>
+                <td>Mata Kuliah yang Diampu</td>
+                <td>
+                    1. Enterprise Arsitecture<br>
+                    2. Sistem Operasi<br>
+                    3. Testing dan Implementasi Sistem<br>
+                    4. Rekayasa Perangkat Lunak
+                </td>
+            </tr>
+        </table>
+
+        <h2>B. Riwayat Pendidikan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>S-1</th>
+                    <th>S-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nama Perguruan Tinggi</td>
+                    <td>Universitas Komputer Indonesia</td>
+                    <td>Universitas Komputer Indonesia</td>
+                </tr>
+                <tr>
+                    <td>Bidang Ilmu</td>
+                    <td>Sistem Informasi</td>
+                    <td>Sistem Informasi</td>
+                </tr>
+                <tr>
+                    <td>Tahun Masuk-Lulus</td>
+                    <td>2005-2009</td>
+                    <td>2012-2014</td>
+                </tr>
+                <tr>
+                    <td>Judul Skripsi/Tesis/Disertasi</td>
+                    <td>Sistem Informasi Pendaftaran Pre dan Post Atraktif pada Kegiataan Diklat Pakem Guru Tk di P4tk dan PLB</td>
+                    <td>Perancangan Model Kolaborasi Teknologi Informasi Melalui Kolaborasi Strategi dalam Menggali Potensi Kerjasa Unikom dan Universitas Youngsan</td>
+                </tr>
+                <tr>
+                    <td>Nama Pembimbing/Promotor</td>
+                    <td>Citra Noviyasari, S.Si, MT</td>
+                    <td>Dr. Yeffry Handoko Putra, S.T, MT</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>C. Pengalaman Penelitian Dalam 5 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Tahun</th>
+                    <th rowspan="2">Judul Penelitian</th>
+                    <th colspan="2">Pendanaan</th>
+                </tr>
+                <tr>
+                    <th>Sumber</th>
+                    <th>Jml (Juta Rp)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2021</td>
+                    <td>Survei Dampak Pelaksanaan Merdeka Belajar Kampus Merdeka Di Program Studi Sistem Informasi, FTIK, Unikom Tahun 2021</td>
+                    <td>Kemdikbud ristek</td>
+                    <td class="text-center">25</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">2020</td>
+                    <td>The Research Project for Development of Gender Integrated Vocational Training Model for West Java Province Hibah MOGEF</td>
+                    <td>Mogef/DoR un-DoRun (Korea Selatan)</td>
+                    <td class="text-center">200</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">2020</td>
+                    <td>Inovasi Model Pembelajaran bagi Mahasiswa Berkebutuhan Khusus pada Program Studi Sistem Informasi</td>
+                    <td>Kemdikbud ristek</td>
+                    <td class="text-center">55</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">2019</td>
+                    <td>E-Worker Sebagai Media Controling dan Monitoring Tenaga Kerja Indonesia</td>
+                    <td>Ristekbrin</td>
+                    <td class="text-center">175</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td class="text-center">2018</td>
+                    <td>E-Worker Sebagai Media Controling dan Monitoring Tenaga Kerja Indonesia</td>
+                    <td>Ristekbrin</td>
+                    <td class="text-center">85</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td class="text-center">2018</td>
+                    <td>Penerapan Algoritma Ant Colony Optimization (ACO) untuk Optimasi Sistem Informasi Penjadwalan Kuliah</td>
+                    <td>Ristekbrin</td>
+                    <td class="text-center">16</td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td class="text-center">2017</td>
+                    <td>Pengukuran Investasi Teknologi Informasi Dengan Framework Val IT Pada International Woman University (IWU)</td>
+                    <td>Ristekbrin</td>
+                    <td class="text-center">17,5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>D. Pengalaman Pengabdian Kepada Masyarakat dalam 5 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Tahun</th>
+                    <th rowspan="2">Judul Pengabdian Kepada Masyarakat</th>
+                    <th colspan="2">Pendanaan</th>
+                </tr>
+                <tr>
+                    <th>Sumber</th>
+                    <th>Jml (Juta Rp)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2022</td>
+                    <td>Implementasi Pelatihan Vokasional Bidang IT dan E-Commerce Sekolah Perempuan Capai Impian dan Cita-Cita -Kedaireka</td>
+                    <td>Kemdikbud ristek</td>
+                    <td class="text-center">498</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td class="text-center">2022</td>
+                    <td>PKM Digitalisasi UMKM bagi Peserta Sekolah Perempuan Capai Impian dan Cita-Cita (Sekoper Cinta) Jawa Barat -Program Kemitraan Masyarakat</td>
+                    <td>Kemdikbud ristek</td>
+                    <td class="text-center">29</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td class="text-center">2021</td>
+                    <td>Penerapan Aplikasi Agregator Forum Ilmiah di Perguruan Tinggi Lembaga Layanan Pendidikan Tinggi (LLDIKTI) WILAYAH IV Program Kemitraan Masyarakat</td>
+                    <td>Kemdikbud ristek</td>
+                    <td class="text-center">45</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td class="text-center">2021</td>
+                    <td>Penerapan Aplikasi Sistem Penjadwalan Kuliah Untuk Meningkatkan Efisiensi Waktu Dalam Proses Penjadwalan Kuliah di Program Studi Teknik Informatika Universitas Komputer Indonesia</td>
+                    <td>Internal PT</td>
+                    <td class="text-center">2</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td class="text-center">2020</td>
+                    <td>Pelatihan, Pembinaan, dan Monitoring Para Orang Tua Anak Down Syndrome dalam Melakukan Asesmen, Evaluasi dan Penyusunan Program Pengembangan Anak Down Syndrome dengan Bantuan Penerapan Aplikasi AADS (Asesmen Anak Down Syndrome) pada Persatuan Orang Tua dengan Anak Down Syndrome</td>
+                    <td>Kemdikbud Ristek</td>
+                    <td class="text-center">48</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>E. Publikasi Artikel Ilmiah pada Jurnal dalam 5 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Judul Artikel Ilmiah</th>
+                    <th>Nama Jurnal</th>
+                    <th>Volume/Nomor/Tahun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Interactive Mapbased- Optical Distribution Point (ODP) Mapping Design and Implementation</td>
+                    <td>Journal of Engineering Science and Technology</td>
+                    <td>Vol.16/No.03/2021</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>E-Budgeting Applications Design and Analysis using an Object-Oriented Approach for The Aircraft Service Company</td>
+                    <td>The IJICS (International Journal of Informatics and Computer Science</td>
+                    <td>Vol.5/No.2/2021</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Perancangan Sistem Informasi Penyelenggaraan Event Lokakarya dan Seminar (Studi Kasus: UNIKOM Bandung)</td>
+                    <td>Jurnal Teknologi dan Informasi</td>
+                    <td>Vol.10/No.2/2020</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>Pengembangan informasi sistem manajemen layanan perpustakaan SMK Merdeka Bandung</td>
+                    <td>Jurnal Teknologi dan Informasi</td>
+                    <td>Vol.9/No.2/2019</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>A schedule optimization of ant colony optimization to arrange scheduling process at certainty variables</td>
+                    <td>International Journal of Advanced Computer Science and Applications</td>
+                    <td>Vol.9/No.12/2018</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>Rancang Bangun Sistem Repository Akreditasi Program Studi Manajemen Informatika</td>
+                    <td>Jurnal Manajemen Informatika</td>
+                    <td>Vol.8/No.2/2018</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>F. Pemakalah Seminar Ilmiah (Oral Presentation) dalam 5 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Pertemuan Ilmiah/Seminar</th>
+                    <th>Judul Artikel Ilmiah</th>
+                    <th>Waktu dan Tempat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>INCITEST 2022</td>
+                    <td>Design of Web-Based Manufacturing and Production Control Information System</td>
+                    <td>20 Oktober 2022</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>INCITEST 2021</td>
+                    <td>E-Budgeting Applications Design and Analysis using an Object-Oriented Approach for The Aircraft Service Company</td>
+                    <td>10 Maret 2021</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>AWIST 2020</td>
+                    <td>Mitigation of Indonesian Migrant Workers Protection Using Cross Platform Technology</td>
+                    <td>2 Desember 2020</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>INCITEST 2020</td>
+                    <td>Development of Expert System for Dental and Oral Diseases Diagnose in Certainty Condition</td>
+                    <td>10 Juni 2020, Bandung</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>INCITEST 2019</td>
+                    <td>Controlling Production Activities Using Information Systems to Improve Cost Efficiency</td>
+                    <td>18 Juli 2019, Bandung</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>INSYMA 2019</td>
+                    <td>The concept of knowledge management in the application of migrant workers protection using SECI model</td>
+                    <td>6 Maret 2019/ Manado</td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td>INCITEST 2018</td>
+                    <td>Seci Implementation Model: Supporting Efforts to Preserve Sundanese Concept Culture</td>
+                    <td>9 Mei 2018, Bandung</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>G. Karya Buku dalam 10 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Judul Buku</th>
+                    <th>Tahun</th>
+                    <th>Jumlah Halaman</th>
+                    <th>Penerbit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>H. Perolehan HKI dalam 5-10 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Judul/Tema HKI</th>
+                    <th>Tahun</th>
+                    <th>Jenis</th>
+                    <th>Nomor P/ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Modul Pelatihan Vokasional Bidang E-Commerce Sekolah Perempuan Capai Impian Dan Cita-Cita (Sekoper Cinta)</td>
+                    <td class="text-center">2022</td>
+                    <td>Modul</td>
+                    <td>EC002022116889</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>Modul Pelatihan Vokasional Bidang IT Sekolah Perempuan Capai Impian Dan Cita-Cita (Sekoper Cinta)</td>
+                    <td class="text-center">2022</td>
+                    <td>Modul</td>
+                    <td>EC002022116891</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Database Aplikasi Agregator Pengabdian Kepada Masyarakat</td>
+                    <td class="text-center">2021</td>
+                    <td>Database</td>
+                    <td>EC00202267726</td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>Rencana Pembelajaran Semester Mata Kuliah Algoritma & Pemrograman Dasar Dan Mata Kuliah Lab. Pemrograman Bagi Mahasiswa Berkebutuhan Khusus (Autism Spectrum Disorder)</td>
+                    <td class="text-center">2021</td>
+                    <td>Resume/Ringkasan</td>
+                    <td>EC00202109798</td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>Aplikasi Multimedia Pembelajaran Interaktif (AMPI) Algoritma Teori & Praktikum Versi PC</td>
+                    <td class="text-center">2021</td>
+                    <td>Program Komputer</td>
+                    <td>EC00202109797</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>Model E-Worker Sebagai Media Controlling dan Monitoring Tenaga Kerja Indonesia</td>
+                    <td class="text-center">2018</td>
+                    <td>Karya Ilmiah</td>
+                    <td>EC00201854160</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>I. Pengalaman Merumuskan Kebijakan Publik/Rekayasa Sosial Lainnya dalam 5 Tahun Terakhir</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Judul/Tema/Jenis Rekayasa Sosial Lainnya yang Telah Diterapkan</th>
+                    <th>Tahun</th>
+                    <th>Penerapan Tempat</th>
+                    <th>Masyarakat Respon</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>J. Penghargaan dalam 10 Tahun Terakhir (dari pemerintah, asosiasi atau institusi lainnya)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Jenis Penghargaan</th>
+                    <th>Institusi Pemberi Penghargaan</th>
+                    <th>Tahun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Dosen Berprestasi II Tingkat Nasional</td>
+                    <td>UNIKOM</td>
+                    <td class="text-center">2017</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>Juara 2 Lomba Konsep Aplikasi Revolusi Mental</td>
+                    <td>Kementerian Pembangunan Manusia dan Kebudayaan</td>
+                    <td class="text-center">2016</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <p>Semua data yang saya isikan dan tercantum dalam biodata ini adalah benar dan dapat dipertanggungjawabkan secara hukum. Apabila di kemudian hari ternyata dijumpai ketidaksesuaian dengan kenyataan, saya sanggup menerima sanksi.</p>
+            <p>Demikian biodata ini saya buat dengan sebenarnya untuk memenuhi salah satu persyaratan dalam pengajuan Hibah Pemberdayaan Kemitraan Masyarakat.</p>
+        </div>
+
+        <div class="signature-section">
+            <p>Bandung, 04 April 2023</p>
+            <p>Pengusul,</p>
+            <div class="signature-space">
+                <img src="" alt="(Tanda Tangan)" style="display:none;"> </div>
+            <p><strong>(Rangga Sidik, S.Kom, M.Kom, M.Eng)</strong></p>
+        </div>
+        
+        <div style="clear: both;"></div>
+    </div>
+
+</body>
+</html>
